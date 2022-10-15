@@ -1,9 +1,18 @@
 import "./App.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Home, Projects, Experience} from "./Pages/index"
+
 
 const App = () =>  {
   return (
     < >
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+
+
+    </Router>
       
     </>
   );
