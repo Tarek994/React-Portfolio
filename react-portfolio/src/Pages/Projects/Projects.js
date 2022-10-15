@@ -3,7 +3,7 @@ import "./Projects.css"
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div>this are my projects</div>
   )
 }
 
