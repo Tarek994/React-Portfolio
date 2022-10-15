@@ -1,7 +1,7 @@
 import "./Experience.css"
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <div>here is my experience</div>
   )
 }
 
