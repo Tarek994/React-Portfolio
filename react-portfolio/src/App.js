@@ -5,7 +5,7 @@ import {Home, Projects, Experience} from "./Pages/index"
 
 const App = () =>  {
   return (
-    < >
+    <div >
     <Router>
       <Routes>
         
@@ -18,7 +18,7 @@ const App = () =>  {
 
     </Router>
       
-    </>
+    </div>
   );
 }
 
