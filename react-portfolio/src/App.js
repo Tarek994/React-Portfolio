@@ -1,7 +1,7 @@
 import "./App.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {Home, Projects, Experience} from "./Pages/index"
-
+import { NavBar } from "./components/index";
 
 const App = () =>  {
   return (
