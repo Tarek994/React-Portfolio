@@ -10,9 +10,12 @@ const Home = () => {
         <h2>Hi, My Name Is Tarek</h2>
         <div className="prompt">
         <p> A Softwear Developer With a passion for learning and creating.</p>
-        <FaLinkedin/>
-        <RiMailSendFill/>
-        <RiGithubFill/>
+        <div className="social-Media">
+          <FaLinkedin/>
+          <RiMailSendFill/>
+          <RiGithubFill/>
+        </div>
+        
         </div>
       </div>
       <div className="Skills">
