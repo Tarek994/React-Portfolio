@@ -5,10 +5,10 @@ import { NavBar } from "./components/index";
 
 const App = () =>  {
   return (
-    <div >
+    <div className="App">
     <Router>
+      <NavBar/>
       <Routes>
-        
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/experience" element={<Experience/>}/>
