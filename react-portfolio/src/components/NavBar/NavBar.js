@@ -1,13 +1,17 @@
 import "./NavBar.css"
-import { Link } from "react-router-dom"
+import { Link,useLocation } from "react-router-dom"
 import ReorderIcon from '@mui/icons-material/Reorder'
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 
 const NavBar = () => {
   const [expendNavBar, setExpendNavBar] = useState(false);
+  const location = useLocation();
 
+  useEffect(()=>{
+    setExpendNavBar(false)
+  },[location])
 
   return (
     <div className="navbar" id={expendNavBar ? "open": "close"}>
