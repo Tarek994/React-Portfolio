@@ -1,7 +1,8 @@
 import "./App.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {Home, Projects, Experience} from "./Pages/index"
-import { NavBar } from "./components/index";
+import { NavBar} from "./components/index";
+import {Footer} from "./Sections/index"
 
 const App = () =>  {
   return (
@@ -14,6 +15,7 @@ const App = () =>  {
         <Route path="/experience" element={<Experience/>}/>
 
       </Routes>
+      <Footer/>
 
 
     </Router>
