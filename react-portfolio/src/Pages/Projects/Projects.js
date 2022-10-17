@@ -7,7 +7,9 @@ const Projects = () => {
     <div className="projects">
       <h1>My personal Projects</h1>
       <div className="projectsList">
+      <ProjectItem name="Social Media Website" />
       <ProjectItem/>
+
       
       </div>
     </div>
