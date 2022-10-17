@@ -1,4 +1,5 @@
 import "./Projects.css"
+import { ProjtctItem } from "../../components/index";
 
 
 const Projects = () => {
