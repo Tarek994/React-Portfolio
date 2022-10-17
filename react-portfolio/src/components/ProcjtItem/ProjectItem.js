@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjtctItem = ({image, name}) => {
+const ProjectItem = ({image, name}) => {
   return (
     <div className="ProjectItem">
         <div className='bgImage' style={{backgroundImage: `url(${image})`}}/>
@@ -9,4 +9,4 @@ const ProjtctItem = ({image, name}) => {
   )
 }
 
-export default ProjtctItem
+export default ProjectItem

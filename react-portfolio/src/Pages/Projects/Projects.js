@@ -1,5 +1,5 @@
 import "./Projects.css"
-import { ProjtctItem } from "../../components/index";
+import { ProjectItem } from "../../components/index";
 
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="projects">
       <h1>My personal Projects</h1>
       <div className="projectsList">
-      
+      <ProjectItem/>
       
       </div>
     </div>
