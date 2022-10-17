@@ -14,6 +14,7 @@ const Experience = () => {
         iconStyle={{background:"#3e497a",color:"#fff"}}
         icon={<SchoolIcon/>}>
         <h3 className="vertical-timeline-element-title">My Random High School, Random Place, Random State </h3>
+        <p>High School Diploma</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
