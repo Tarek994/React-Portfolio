@@ -3,9 +3,11 @@
 .bgImage{
     position: relative;
     box-sizing: border-box;
-    width: 90%;
     height: 65%;
+    object-fit: cover;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: 10px;
-    
-
 }
