@@ -1,7 +1,4 @@
 
-
-
-
 .projects{
     width: 100%;
     height: auto;
@@ -12,7 +9,7 @@
 }
 
 
-.projectList .projectTitle{
+.projectsList .projectTitle{
     text-align: center;
     color: #3e497a;
     font-size: 60px;
@@ -20,7 +17,7 @@
 }
 
 
-.projectList{
+.projectsList{
     width: 70vw;
     height: auto;
     display: grid;
@@ -30,7 +27,7 @@
 
 /* MENU ITEM STYLING */
 
-.projectItem{
+.ProjectItem{
     border-radius: 15px;
     width: 300px;
     height: 300px;
@@ -40,30 +37,30 @@
 }
 
 
-.projectItem h1{
+.ProjectItem h1{
     font-size: 25px;
 }
 
 
 @media only screen and (max-width:1300 ){
-    .projectList{
+    .projectsList{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 
 @media only screen and (max-width:800px ){
-    .projectList{
+    .projectsList{
         grid-template-columns: 1fr;
     }
 }
 
 
 @media only screen and (max-width:800px ){
-    .projectList{
+    .projectsList{
         width:100px;
     }
-    .projectItem{
+    .ProjectItem{
         width: 300px;
         height: 300px;
     }
