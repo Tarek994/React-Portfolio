@@ -4,9 +4,9 @@ import "./ProjectItem.css"
 const ProjectItem = ({image, name}) => {
   return (
     <div className="ProjectItem">
-      <img className="bgImage" src={image} alt="k"></img>
+      <img className="bgImage" src={image} alt="k"/>
         {/* <div className='bgImage' style={{backgroundImage: `url(${image})`}}/> */}
-        <h1>{name} </h1>
+        <h1><a href="/#">{name} </a></h1>
     </div>
   )
 }
