@@ -1,6 +1,7 @@
 import "./Projects.css"
 import { ProjectItem } from "../../components/index";
 import game_03 from "../../assets/game-03.jpg";
+import { projectsList } from "../../helpers/ProjectsList";
 
 const Projects = () => {
   return (
