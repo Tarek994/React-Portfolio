@@ -1,10 +1,13 @@
 import "./ProjectItem.css"
+import { useNavigate } from "react-router-dom"
 
 
-const ProjectItem = ({image, name}) => {
+const ProjectItem = ({image, name, id}) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="ProjectItem">
-      {/* <img className="bgImage" src={image} alt="k"/> */}
+    <div  className="ProjectItem" onClick={()=>{
+      navigate("/project/" + id)}}>
         <div className='bgImage' style={{backgroundImage: `url(${image})`}}/>
         <h1>{name}</h1>
     </div>

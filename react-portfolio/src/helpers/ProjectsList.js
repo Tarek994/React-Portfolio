@@ -4,7 +4,7 @@ import pro1 from "../assets/pro1.jpeg";
 import pro2 from "../assets/pro2.jpeg";
 
 
-export const projectsList = [
+export const ProjectsList = [
     {
         name :"Socila Media Website",
         image: pro4,
