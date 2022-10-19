@@ -8,17 +8,21 @@ export const ProjectsList = [
     {
         name :"Socila Media Website",
         image: pro4,
+        skills:"Javascript React Js "
     },
     {
         name :"Gaming website",
         image: clip_01,
+        skills:"Javascript React Js "
     },
     {
         name :"Blog Website",
         image: pro1,
+        skills:"Javascript React Js "
     },
     {
         name :"Project Mangment ",
         image: pro2,
+        skills:"Javascript React Js "
     },
 ]
