@@ -2,7 +2,7 @@ import "./ProjectItem.css"
 import { useNavigate } from "react-router-dom"
 
 
-const ProjectItem = ({image, name, id}) => {
+const ProjectItem = ({image, name,id}) => {
   const navigate = useNavigate();
 
   return (
