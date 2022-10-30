@@ -8,7 +8,7 @@ const ProjectItem = ({image, name,id}) => {
   return (
     <div  className="ProjectItem" onClick={()=>{
       navigate(`/project/` + id)}}>
-        <div className='bgImage' style={{backgroundImage: `url(${image})`}}/>
+        <img alt="" className='bgImage' src={image}/>
         <h1>{name}</h1>
     </div>
   )
