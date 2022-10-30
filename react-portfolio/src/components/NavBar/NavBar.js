@@ -15,12 +15,21 @@ const NavBar = () => {
 
   return (
     <div className="navbar" id={expendNavBar ? "open": "close"}>
-       <div className="toggle-button"> 
-         <button onClick={()=>{
-          setExpendNavBar((prev)=> !prev);}}>
+        <div className="toggle-div">
+         <button className="toggle-button" onClick={()=> {
+          setExpendNavBar((prev)=> !prev);}} >
 
-          <ReorderIcon/> </button>
+          <ReorderIcon className="icon"/>
+          </button>
+
+          <div className="hidden-links">
+
+        <Link to="/"> Home</Link>
+        <Link to="/projects"> Projects</Link>
+        <Link to="/experience"> Experience</Link>
+          </div>
        </div>
+       
        <div className="links">
 
         <Link to="/"> Home</Link>

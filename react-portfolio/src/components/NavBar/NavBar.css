@@ -1,16 +1,17 @@
 .navbar{
-    background-color: blue;
+    background-color: #21325e;
     height: 100px;
     width: 100%;
     border-bottom: 2px  solid  black;
     display: flex;
     justify-content: center;
 
-
 }
 
-.toggle-button{
+.toggle-div{
     display: none;
+
+    
 }
 
 .links{
@@ -32,21 +33,60 @@
 @media only screen and (max-width:820px ){
     .toggle-button{
         display: flex;
-        height: 30px;
-        width: 40px;
-        margin-top: 30px;
+        height: 40px;
+        width: 100px;
+        justify-content: center;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 1%;
+        transition: 0.7s ease;
         
-        
+    }
+    .toggle-button:hover{
+        color: black;
+        background-color: white;
+        transform: scale(1.1);
     }
     .links{
         display: none;
     }
+    .hidden-links a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
     .navbar{
+        height: fit-content;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        left: 50;
+        align-items: center;
+    }   
+
+    .toggle-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .hidden-links{
+        /* height: 100px;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 1%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        display: none;
+
 
     }
+
 }
